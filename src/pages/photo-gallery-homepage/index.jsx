@@ -157,7 +157,31 @@ function PhotoGalleryHomepage() {
       date: 'February 18, 2024',
       width: 800,
       height: 950
-    }
+    },
+    {
+      id: 13, // ユニークなIDを設定
+      filename: 'woman.png',
+      src: '/assets/images/woman.png', // publicディレクトリからの相対パス
+      thumbnail: '/assets/images/woman.png', // 同じくサムネイルも相対パス
+      alt: 'Portrait of a woman',
+      title: 'Woman Portrait',
+      description: 'A stylish portrait of a woman.',
+      date: 'June 24, 2025', // 今日の日付などに更新
+      width: 1000, // 画像の実際の幅を設定
+      height: 1000 // 画像の実際の高さを設定
+    },
+    {
+      id: 14, // ユニークなIDを設定
+      filename: 'miselive.jpg',
+      src: '/assets/images/miselive.jpg', // publicディレクトリからの相対パス
+      thumbnail: '/assets/images/miselive.jpg', // 同じくサムネイルも相対パス
+      alt: 'Miselive',
+      title: 'Miselive',
+      description: 'A stylish portrait of a woman.',
+      date: 'June 24, 2025', // 今日の日付などに更新
+      width: 1000, // 画像の実際の幅を設定
+      height: 1000 // 画像の実際の高さを設定
+    },
   ], []);
 
   // Simulate loading photos from directory
