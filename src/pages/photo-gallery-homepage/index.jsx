@@ -182,6 +182,18 @@ function PhotoGalleryHomepage() {
       width: 1000, // 画像の実際の幅を設定
       height: 1000 // 画像の実際の高さを設定
     },
+    {
+      id: 14, // ユニークなIDを設定
+      filename: 'tonmana.png',
+      src: '/assets/images/tonmana.png', // publicディレクトリからの相対パス
+      thumbnail: '/assets/images/tonmana.png', // 同じくサムネイルも相対パス
+      alt: 'tonmana',
+      title: 'tonmana',
+      description: 'A stylish portrait of a woman.',
+      date: 'June 24, 2025', // 今日の日付などに更新
+      width: 1000, // 画像の実際の幅を設定
+      height: 1000 // 画像の実際の高さを設定
+    },
   ], []);
 
   // Simulate loading photos from directory
